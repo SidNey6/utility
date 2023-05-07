@@ -14,8 +14,6 @@ def check_folders_exist(folders):
             # create the folder
             os.mkdir(desktop_path + "/" + folder)
 
-check_folders_exist(folders)
-
 # create a function that moves all the files on my desktop to the correct folder
 def move_files_to_correct_folder():
     # get the path to my desktop
