@@ -42,7 +42,3 @@ def move_files_to_correct_folder():
             # move the file to the other folder
             else:
                 os.rename(desktop_path + "/" + file, desktop_path + "/" + "Other" + "/" + file)
-
-if __name__ == "__main__":
-    check_folders_exist(folders)
-    move_files_to_correct_folder()
